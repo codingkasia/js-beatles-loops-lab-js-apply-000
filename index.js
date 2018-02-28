@@ -20,9 +20,9 @@ function johnLennonFacts(arr) {
   var counter = 0;
   var newArray = [];
   while(counter < arr.length) {
-    arr.push(arr[counter] + "!!!");
+    arr.unshift(arr[counter] + "!!!");
     counter ++;
-    arr.shift(counter);
+    arr.shift(counter+1);
   }
   return arr;
 }
