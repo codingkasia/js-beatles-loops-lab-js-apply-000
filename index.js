@@ -11,6 +11,7 @@ function johnLennonFacts(arr) {
   var newArray = [];
   while(counter < arr.length) {
     newArray.push(arr[counter] + "!!!");
+    splice(counter, 1, (arr[counter] + "!!!"));
     counter ++;
   }
   return newArray;
