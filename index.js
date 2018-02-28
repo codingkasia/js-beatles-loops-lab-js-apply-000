@@ -20,7 +20,7 @@ function johnLennonFacts(arr) {
   var counter = 0;
   var newArray = [];
   while(counter < arr.length) {
-    splice(counter, 1, (arr[counter] + "!!!"));
+    arr.splice(counter, 1, (arr[counter] + "!!!"));
     counter ++;
   }
   return arr;
