@@ -13,7 +13,7 @@ function johnLennonFacts(arr) {
     newArray.push(arr[counter] + "!!!");
     counter ++;
   }
-  return arr;
+  return newArray;
 }
 
  describe('johnLennonFacts', function(){
