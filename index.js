@@ -24,7 +24,7 @@ function johnLennonFacts(arr) {
     counter ++;
     arr.shift(counter);
   }
-  return newArray;
+  return arr;
 }
 
  describe('johnLennonFacts', function(){
