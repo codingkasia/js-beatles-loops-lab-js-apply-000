@@ -16,6 +16,16 @@ function johnLennonFacts(arr) {
   return newArray;
 }
 
+function johnLennonFacts(arr) {
+  var counter = 0;
+  var newArray = [];
+  while(counter < arr.length) {
+    newArray.push(arr[counter] + "!!!");
+    counter ++;
+  }
+  return newArray;
+}
+
  describe('johnLennonFacts', function(){
     it("returns an array of strings with exclamation points", function() {
       expect(johnLennonFacts([
