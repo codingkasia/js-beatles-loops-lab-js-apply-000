@@ -9,7 +9,7 @@ function theBeatlesPlay(musicians, instruments) {
 function johnLennonFacts(arr) {
   var counter = 0;
   while(counter < arr.length) {
-    arr[i].push("!!!");
+    arr[counter].push("!!!");
     counter ++;
   }
   return arr;
