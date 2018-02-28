@@ -6,6 +6,13 @@ function theBeatlesPlay(musicians, instruments) {
   return array;
 }
 
+function johnLennonFacts(arr) {
+  var counter = 0;
+  while(counter < arr.length) {
+    counter --;
+  }
+}
+
  describe('johnLennonFacts', function(){
     it("returns an array of strings with exclamation points", function() {
       expect(johnLennonFacts([
